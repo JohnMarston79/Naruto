@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(white);
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 25px;
+}
+
+.menu-icon {
+    width: 35px;
+}
+
+nav {
+    display: flex;
+    gap: 80px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.orange {
+    color: #ff5a00;
+}
+
+.hero {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 60px;
+}
+
+.hero-text {
+    width: 550px;
+    text-align: center;
+}
+
+.hero-text span {
+    color: #ff5a00;
+}
+
+.hero-text h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.hero-text p {
+    font-size: 19px;
+}
+
+button {
+    background: #ff5a00;
+    color: white;
+
+    border: none;
+    border-radius: 17px;
+
+    padding: 14px 60px;
+
+    font-size: 22px;
+
+    box-shadow: 0 4px 5px gray;
+}
+
+.hero-image {
+    width: 430px;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+
+.dishes {
+    text-align: center;
+    padding: 50px 20px 100px;
+}
+
+.dishes h2 {
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.dishes span {
+    color: #ff5a00;
+}
+
+.dish-list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.dish {
+    width: 250px;
+}
+
+.dish img {
+    width: 230px;
+    height: 230px;
+}
+
+.dish p {
+    font-size: 19px;
+}
+
+.reviews {
+    width: 900px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.reviews h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.reviews h2 span {
+    color: #ff5a00;
+}
+
+.review {
+    width: 800px;
+
+    margin: 25px auto;
+
+    border: 1px solid gray;
+    border-radius: 22px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 25px;
+
+    padding: 15px 30px;
+
+    box-shadow: 0 2px 2px gray;
+}
+
+.review img {
+    width: 130px;
+    height: 140px;
+}
+
+.review p {
+    font-size: 17px;
+    line-height: 1.15;
+}
